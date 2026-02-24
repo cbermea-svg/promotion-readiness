@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      includeAssets: ['apple-touch-icon.png', 'pwa-64x64.png'],
       manifest: {
         name: 'Promotion Readiness Evaluator',
         short_name: 'Evaluator',
